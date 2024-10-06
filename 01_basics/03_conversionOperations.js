@@ -24,5 +24,28 @@ empty string- false
 
 let number=33
 let stnum=String (number)
-console.log(typeof stnum);
+//console.log(typeof stnum);
 
+
+
+
+// operations
+let val=3
+let negval=-val
+//console.log(negval);
+
+let str1=1
+let str2="2"
+
+let str3=1+str1+str2+1+1
+//console.log(str3);
+//console.log(typeof str3);
+
+//console.log(true);
+let a=3;
+let b=++a;
+
+let c=3;
+let d=c++;
+
+console.log(b,c);
