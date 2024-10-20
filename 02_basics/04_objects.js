@@ -40,7 +40,7 @@ const obj2={
 //  const obj3=Object.assign({},obj1,obj2);
 //  console.log(obj3);
    const obj3={...obj1,...obj2}
-   console.log(obj3);
+   //console.log(obj3);
    
 
 
@@ -56,17 +56,37 @@ const obj2={
     }
    ]
 
-   console.log(users[1].email)
+//    console.log(users[1].email)
 
 
-   console.log(user)
-   console.log(Object.keys(user));
-   console.log(Object.values(user));
-   console.log(Object.entries(user));
+//    console.log(user)
+//    console.log(Object.keys(user));
+//    console.log(Object.values(user));
+//    console.log(Object.entries(user));
 
 
-   console.log(user.hasOwnProperty("isloggedin"));
+//    console.log(user.hasOwnProperty("isloggedin"));
    
    
+   const course={
+    coursename:"js",
+    price:99,
+    intruct:"ashish"
+   }
+
+   const{intruct:i}=course
+   console.log(i);
    
-   
+
+
+//    const navbar=({company})=>{
+
+//    }
+
+
+// {
+//     "name":"ashish",
+//     "coursename":"js",
+//     "price":"free"
+// }
+
