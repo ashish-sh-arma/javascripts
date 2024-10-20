@@ -49,3 +49,39 @@ function loginuser(name="sharma"){
 console.log(loginuser());
 
 
+function calculate(val1,val2,...num1){//rest sometimes spread
+    return num1
+}
+
+console.log(calculate(200,400,500,600));
+
+
+const user={
+    username:"ashish",
+    price:199
+}
+
+function handleobject(anyobject){
+    console.log(`username ${anyobject.username} and price is ${anyobject.price}`);
+    
+}
+
+//handleobject(user)
+
+handleobject({
+    username:"ashish",
+    price:399
+})
+
+const newarr=[200,400,600]
+function returnsec(getarray){
+    return getarray[1];
+}
+
+console.log(returnsec(newarr));
+
+console.log(returnsec([3,2,4,2]));
+
+
+
+
